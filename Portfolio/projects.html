@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Projects | Arshi Rinu M</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="canonical" href="https://arshirinu.github.io/portfolio/projects.html">
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#09090d;
+color:#fff;
+overflow-x:hidden;
+}
+
+body::before{
+content:"";
+position:fixed;
+width:100%;
+height:100%;
+background:
+radial-gradient(circle at top left,#4d7cff30,transparent 40%),
+radial-gradient(circle at bottom right,#8e24aa35,transparent 40%);
+z-index:-1;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 8%;
+background:rgba(255,255,255,.03);
+backdrop-filter:blur(18px);
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.logo{
+font-family:'Space Grotesk',sans-serif;
+font-size:30px;
+font-weight:700;
+letter-spacing:2px;
+}
+
+nav ul{
+display:flex;
+gap:35px;
+list-style:none;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+nav a:hover{
+color:#6ea8ff;
+}
+
+.header{
+text-align:center;
+padding:80px 10% 40px;
+}
+
+.header h1{
+font-size:60px;
+font-family:'Space Grotesk',sans-serif;
+margin-bottom:15px;
+}
+
+.header span{
+color:#5c8dff;
+}
+
+.header p{
+max-width:700px;
+margin:auto;
+color:#cfcfcf;
+line-height:1.8;
+}
+
+.projects{
+padding:40px 8% 100px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(330px,1fr));
+gap:35px;
+}
+
+.card{
+background:rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.08);
+backdrop-filter:blur(15px);
+border-radius:25px;
+overflow:hidden;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px rgba(92,141,255,.4);
+}
+
+.image{
+height:220px;
+background:linear-gradient(135deg,#5c8dff,#8e24aa);
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:70px;
+font-weight:bold;
+font-family:'Space Grotesk',sans-serif;
+}
+
+.content{
+padding:30px;
+}
+
+.content h2{
+margin-bottom:15px;
+font-size:28px;
+}
+
+.content p{
+color:#cfcfcf;
+line-height:1.8;
+margin-bottom:25px;
+}
+
+.tech{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-bottom:25px;
+}
+
+.tech span{
+background:rgba(255,255,255,.08);
+padding:8px 16px;
+border-radius:30px;
+font-size:14px;
+transition:.3s;
+}
+
+.tech span:hover{
+background:#5c8dff;
+}
+
+.buttons{
+display:flex;
+gap:15px;
+}
+
+.btn{
+text-decoration:none;
+padding:12px 24px;
+border-radius:40px;
+background:#5c8dff;
+color:white;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+box-shadow:0 0 20px #5c8dff;
+}
+
+.outline{
+background:transparent;
+border:1px solid #5c8dff;
+}
+
+footer{
+padding:35px;
+text-align:center;
+color:#aaa;
+border-top:1px solid rgba(255,255,255,.08);
+}
+
+@media(max-width:900px){
+
+.header h1{
+font-size:42px;
+}
+
+nav{
+flex-direction:column;
+gap:20px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="logo">ARSHI.</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+
+<section class="header">
+
+<h1>My <span>Projects</span></h1>
+
+<p>
+Here are some of the websites and digital experiences I've created using modern frontend technologies and SEO best practices.
+</p>
+
+</section>
+
+<section class="projects">
+
+<div class="card">
+
+<div class="image">01</div>
+
+<div class="content">
+
+<h2>Personal Portfolio</h2>
+
+<p>
+A modern responsive portfolio built using HTML, CSS and JavaScript with smooth animations and glassmorphism UI.
+</p>
+
+<div class="tech">
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+</div>
+
+<div class="buttons">
+<a href="https://arshirinu.github.io/Elegance-boutique/" target="_blank" class="btn">
+    Live Demo
+</a>
+<a href="https://github.com/arshirinu/Elegance-boutique" target="_blank" class="btn outline">
+    GitHub
+</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="image">02</div>
+
+<div class="content">
+
+<h2>SEO Optimization</h2>
+
+<p>
+Optimized website speed, structured content, meta tags, sitemap, robots.txt and keyword strategy to improve rankings.
+</p>
+
+<div class="tech">
+<span>SEO</span>
+<span>Google Search Console</span>
+<span>Analytics</span>
+</div>
+
+<div class="buttons">
+<a href="#" class="btn">Case Study</a>
+<a href="#" class="btn outline">Details</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="image">03</div>
+
+<div class="content">
+
+<h2>Business Website</h2>
+
+<p>
+Designed a responsive business website with a clean UI, fast loading speed and mobile-friendly layout.
+</p>
+
+<div class="tech">
+<span>Bootstrap</span>
+<span>Responsive</span>
+<span>UI/UX</span>
+</div>
+
+<div class="buttons">
+<a href="#" class="btn">View Site</a>
+<a href="#" class="btn outline">GitHub</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="image">04</div>
+
+<div class="content">
+
+<h2>Landing Page</h2>
+
+<p>
+A conversion-focused landing page featuring modern layouts, engaging visuals and SEO-friendly structure.
+</p>
+
+<div class="tech">
+<span>HTML</span>
+<span>CSS</span>
+<span>Marketing</span>
+</div>
+
+<div class="buttons">
+<a href="#" class="btn">Preview</a>
+<a href="#" class="btn outline">Code</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="image">05</div>
+
+<div class="content">
+
+<h2>WordPress Website</h2>
+
+<p>
+Customized a WordPress website with responsive pages, SEO optimization and improved Core Web Vitals.
+</p>
+
+<div class="tech">
+<span>WordPress</span>
+<span>SEO</span>
+<span>Elementor</span>
+</div>
+
+<div class="buttons">
+<a href="#" class="btn">Website</a>
+<a href="#" class="btn outline">Details</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<div class="image">06</div>
+
+<div class="content">
+
+<h2>Future Projects</h2>
+
+<p>
+More frontend development and SEO projects will be added here as I continue building innovative digital experiences.
+</p>
+
+<div class="tech">
+<span>Coming Soon</span>
+</div>
+
+<div class="buttons">
+<a href="#" class="btn">Explore</a>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Arshi Rinu M • Frontend Developer & SEO Analyst
+
+</footer>
+
+</body>
+</html>
+```
